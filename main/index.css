@@ -87,14 +87,16 @@
     margin-top: 0.75rem;
 }
 
-#company-summary {
+#company-summary,
+#company-goal {
     padding-top: 8rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
 }
 
-#company-summary p {
+#company-summary p,
+#company-goal p {
     font-size: 3rem;
     line-height: 1.25;
     font-weight: 300;
@@ -103,11 +105,15 @@
     letter-spacing: 0.02em;
 }
 
+#company-goal {
+    padding-bottom: 8rem;
+    padding-top: 6rem;
+}
 #the-team {
     padding-left: 4rem;
     padding-right: 4rem;
-    height: 3425px;
-    width: 1407px;
+    height: 3525px;
+        width: 1407px;
 }
 
 .team-member {
@@ -115,9 +121,11 @@
     margin: 0;
     width: 450px;
     height: 317px;
+    margin-left: 0.5rem;
+        margin-right: 0.5rem;
 }
 
-.team-member div {
+.team-member-picture {
     width: inherit;
     height: 254px;
 }
@@ -127,6 +135,7 @@
     height: auto;
     mix-blend-mode: multiply;
     display: block;
+    margin-top: 2rem;
 }
 
 #the-team .team-member:nth-child(odd) .team-member-picture {
@@ -143,4 +152,33 @@
 
 #the-team .team-member:nth-child(5n) .team-member-picture {
     background-color: rgba(236, 236, 254, 255);
+}
+.team-member-name {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0.7rem;
+}
+
+.team-member-job {
+    margin-top: 5px;
+}
+
+#company-values-picture {
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 600px;
+}
+
+#company-values-picture div {
+    width: 690px;
+    height: 600px;
+}
+
+#company-values-picture div img {
+    width: inherit;
+    height: inherit;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
