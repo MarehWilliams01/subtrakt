@@ -45,7 +45,7 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.2rem;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .nav-bar-item a {
@@ -71,12 +71,76 @@
     border-radius: 5px;
 }
 
-.nav-bar-item a:last-child:hover,
-.nav-bar-item a:last-child:focus {
-    border-bottom: none;
+.nav-bar-item:last-child a:focus,
+.nav-bar-item:last-child a:hover {
+    border-bottom: 1px solid #1e1e1e;
 }
 
 .nav-bar-item a:hover,
 .nav-bar-item a:focus {
     border-bottom: 2px solid #1e1e1e;
+}
+#company-photo-image img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+#company-summary {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#company-summary p {
+    font-size: 3rem;
+    line-height: 1.25;
+    font-weight: 300;
+    height: 300px;
+    width: 872px;
+    letter-spacing: 0.02em;
+}
+
+#the-team {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 3425px;
+    width: 1407px;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 0;
+    width: 450px;
+    height: 317px;
+}
+
+.team-member div {
+    width: inherit;
+    height: 254px;
+}
+
+.team-member-picture img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+    display: block;
+}
+
+#the-team .team-member:nth-child(odd) .team-member-picture {
+    background-color: rgba(255, 250, 235, 255);
+}
+
+#the-team .team-member:nth-child(even) .team-member-picture {
+    background-color: rgba(211, 251, 246, 255);
+}
+
+#the-team .team-member:nth-child(3n) .team-member-picture {
+    background-color: rgba(255, 235, 240, 255);
+}
+
+#the-team .team-member:nth-child(5n) .team-member-picture {
+    background-color: rgba(236, 236, 254, 255);
 }
