@@ -118,7 +118,6 @@
 
 .team-member {
     display: inline-block;
-    margin: 0;
     width: 450px;
     height: 317px;
     margin-left: 0.5rem;
@@ -210,7 +209,141 @@
     display: flex;
     width: 1407px;
     height: 393px;
-    justify-content: space-between;
-    padding: 128px 55px;
-}
-#company-events {}
+    padding: 3rem 3rem;
+    
+    }
+    
+    #company-events-and-initiatives a:hover {
+        text-decoration: none;
+    }
+    
+    #company-events {
+        width: 500px;
+        padding: 2rem 3rem;
+        font-size: 1.875rem;
+        line-height: 1.5;
+        background-color: rgba(236, 236, 254, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 6rem;
+    }
+    
+    #company-events p {
+        color: #1e1e1e;
+        background-color: transparent;
+    }
+    
+    #company-events a {
+        background-color: transparent;
+        color: #4212d5;
+    }
+    
+    .rocket {
+        margin-top: -35px;
+    }
+    
+    #company-initiatives h3 {
+        font-size: 1.875rem;
+        margin-top: 1rem;
+        line-height: 2.25rem;
+        font-weight: 400;
+    }
+    
+    .company-initiatives-list ul {
+        list-style-type: none;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .heart-circle {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.75rem;
+    }
+    
+    .heart-circle div {
+        margin-top: 0.25rem;
+        margin-bottom: 0.75rem;
+        margin-right: 1.1rem;
+        width: 1.3rem;
+        height: 1.3rem;
+        border: 2px solid #1e1e1e;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .heart-circle div img {
+        background: transparent;
+    }
+    
+    .heart-circle a {
+        color: #4212d5;
+    }
+    
+    #company-benefits {
+        width: 1407px;
+        height: 937px;
+        padding: 7rem 3.5rem;
+        background-color: rgba(255, 250, 235, 255);
+        margin-top: 8rem;
+    }
+    
+    #company-benefits h2 {
+        margin-bottom: 1rem;
+        font-size: 2.25rem;
+        letter-spacing: 0.03rem;
+        line-height: 1.125;
+        font-weight: 100;
+        background-color: inherit;
+    }
+    
+    #company-benefits-items {
+        margin-top: 6rem;
+        background-color: inherit;
+    }
+    
+    .company-benefits-item,
+    .company-benefits-item div,
+    .company-benefits-item div img,
+    .company-benefits-item-paragraph,
+    .company-benefits-item-paragraph p,
+    .company-benefits-item-paragraph h4 {
+        background-color: transparent;
+    }
+    
+    .company-benefits-item {
+        width: 430px;
+        height: 192px;
+        display: inline-block;
+        margin-right: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .company-benefits-item-image {
+        width: 75px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .company-benefits-item-paragraph h4 {
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 0.4rem;
+    }
+    
+    .company-benefits-item-paragraph p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+        
