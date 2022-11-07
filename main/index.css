@@ -80,6 +80,7 @@
 .nav-bar-item a:focus {
     border-bottom: 2px solid #1e1e1e;
 }
+
 #company-photo-image img {
     display: block;
     max-width: 100%;
@@ -109,11 +110,12 @@
     padding-bottom: 8rem;
     padding-top: 6rem;
 }
+
 #the-team {
     padding-left: 4rem;
     padding-right: 4rem;
     height: 3525px;
-        width: 1407px;
+    width: 1407px;
 }
 
 .team-member {
@@ -121,7 +123,7 @@
     width: 450px;
     height: 317px;
     margin-left: 0.5rem;
-        margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .team-member-picture {
@@ -152,6 +154,7 @@
 #the-team .team-member:nth-child(5n) .team-member-picture {
     background-color: rgba(236, 236, 254, 255);
 }
+
 .team-member-name {
     font-size: 1.5rem;
     line-height: 1;
@@ -173,14 +176,15 @@
 
 #company-values-picture div {
     width: 650px;
-        height: 500px;
+    height: 500px;
 }
 
 #company-values-picture div img {
     width: 100%;
-        height: 100%;
+    height: 100%;
     margin-bottom: 4rem;
 }
+
 #company-values {
     padding-left: 5rem;
     align-self: center;
@@ -210,140 +214,295 @@
     width: 1407px;
     height: 393px;
     padding: 3rem 3rem;
-    
-    }
-    
-    #company-events-and-initiatives a:hover {
-        text-decoration: none;
-    }
-    
-    #company-events {
-        width: 500px;
-        padding: 2rem 3rem;
-        font-size: 1.875rem;
-        line-height: 1.5;
-        background-color: rgba(236, 236, 254, 255);
-        display: flex;
+}
+
+#company-events-and-initiatives a:hover {
+    text-decoration: none;
+}
+
+#company-events {
+    width: 500px;
+    padding: 2rem 3rem;
+    font-size: 1.875rem;
+    line-height: 1.5;
+    background-color: rgba(236, 236, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+#company-events p {
+    color: #1e1e1e;
+    background-color: transparent;
+}
+
+#company-events a {
+    background-color: transparent;
+    color: #4212d5;
+}
+
+.rocket {
+    margin-top: -35px;
+}
+
+#company-initiatives h3 {
+    font-size: 1.875rem;
+    margin-top: 1rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+}
+
+.company-initiatives-list ul {
+    list-style-type: none;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 0;
+    padding: 0;
+}
+
+.heart-circle {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.75rem;
+}
+
+.heart-circle div {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    margin-right: 1.1rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 2px solid #1e1e1e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.heart-circle div img {
+    background: transparent;
+}
+
+.heart-circle a {
+    color: #4212d5;
+}
+
+#company-benefits {
+    width: 1407px;
+    height: 937px;
+    padding: 7rem 3.5rem;
+    background-color: rgba(255, 250, 235, 255);
+    margin-top: 8rem;
+}
+
+#company-benefits h2 {
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.125;
+    font-weight: 100;
+    background-color: inherit;
+}
+
+#company-benefits-items {
+    margin-top: 6rem;
+    background-color: inherit;
+}
+
+.company-benefits-item,
+.company-benefits-item div,
+.company-benefits-item div img,
+.company-benefits-item-paragraph,
+.company-benefits-item-paragraph p,
+.company-benefits-item-paragraph h4 {
+    background-color: transparent;
+}
+
+.company-benefits-item {
+    width: 430px;
+    height: 192px;
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.company-benefits-item-image {
+    width: 75px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-benefits-item-paragraph h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.4rem;
+}
+
+.company-benefits-item-paragraph p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 0;
+    display: flex;
         justify-content: center;
-        align-items: center;
-        margin-right: 6rem;
-    }
-    
-    #company-events p {
-        color: #1e1e1e;
-        background-color: transparent;
-    }
-    
-    #company-events a {
-        background-color: transparent;
-        color: #4212d5;
-    }
-    
-    .rocket {
-        margin-top: -35px;
-    }
-    
-    #company-initiatives h3 {
-        font-size: 1.875rem;
-        margin-top: 1rem;
-        line-height: 2.25rem;
-        font-weight: 400;
-    }
-    
-    .company-initiatives-list ul {
-        list-style-type: none;
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .heart-circle {
-        display: flex;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        line-height: 1.75rem;
-    }
-    
-    .heart-circle div {
-        margin-top: 0.25rem;
-        margin-bottom: 0.75rem;
-        margin-right: 1.1rem;
-        width: 1.3rem;
-        height: 1.3rem;
-        border: 2px solid #1e1e1e;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .heart-circle div img {
-        background: transparent;
-    }
-    
-    .heart-circle a {
-        color: #4212d5;
-    }
-    
-    #company-benefits {
-        width: 1407px;
-        height: 937px;
-        padding: 7rem 3.5rem;
-        background-color: rgba(255, 250, 235, 255);
-        margin-top: 8rem;
-    }
-    
-    #company-benefits h2 {
-        margin-bottom: 1rem;
-        font-size: 2.25rem;
         letter-spacing: 0.03rem;
-        line-height: 1.125;
-        font-weight: 100;
-        background-color: inherit;
-    }
-    
-    #company-benefits-items {
-        margin-top: 6rem;
-        background-color: inherit;
-    }
-    
-    .company-benefits-item,
-    .company-benefits-item div,
-    .company-benefits-item div img,
-    .company-benefits-item-paragraph,
-    .company-benefits-item-paragraph p,
-    .company-benefits-item-paragraph h4 {
-        background-color: transparent;
-    }
-    
-    .company-benefits-item {
-        width: 430px;
-        height: 192px;
-        display: inline-block;
-        margin-right: 2rem;
-        margin-bottom: 5rem;
-    }
-    
-    .company-benefits-item-image {
-        width: 75px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .company-benefits-item-paragraph h4 {
-        margin-bottom: 0.5rem;
-        font-size: 1.5rem;
-        font-weight: 500;
-        margin-top: 0.4rem;
-    }
-    
-    .company-benefits-item-paragraph p {
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        margin-top: 0;
-        display: flex;
-        justify-content: center;
-    }
+        }
         
+        #working-with-us {
+            width: 1407px;
+            height: 540px;
+            padding: 7rem 3.5rem;
+        }
+        
+        #working-with-us h2 {
+            font-size: 2.25rem;
+            line-height: 1.25;
+            font-weight: 300;
+            letter-spacing: 0.03em;
+        }
+        
+        #working-with-us-paragraph {
+            width: 927px;
+            height: 84px;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 200;
+            margin-bottom: 2rem;
+            letter-spacing: 0.03rem;
+        }
+        
+        #working-with-us p a {
+            color: #4212d5;
+        }
+        
+        #working-with-us p a:hover {
+            text-decoration: none;
+        }
+        
+        #vacancy {
+            width: inherit;
+            height: 271px;
+        }
+        
+        .option {
+            width: inherit;
+            height: 90px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .option a {
+            width: inherit;
+            height: 29px;
+            padding: 2rem 1rem;
+            text-decoration: none;
+            font-size: 1.25rem;
+            line-height: 1.25;
+            color: #1e1e1e;
+            font-weight: 200;
+            border-top: 1px solid #1e1e1e;
+            letter-spacing: 00.03rem;
+        }
+        
+        .option:nth-of-type(3) a {
+            border-bottom: 1px solid #1e1e1e;
+        }
+        
+        .option:hover,
+        .option a:hover {
+            color: #4212d5;
+            background-color: rgba(236, 236, 254, 255);
+        }
+        
+        #other-options {
+            display: flex;
+            margin-top: 2rem;
+        
+        }
+        
+        .others {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 689px;
+            height: 56px;
+            margin-right: 2rem;
+        }
+        
+        .others div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1.5rem;
+        }
+        
+        .others p {
+            height: inherit;
+            padding: 0;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 200;
+                                
+                                                                #company-community {
+                                                                    display: flex;
+                                                                    width: 1407px;
+                                                                    height: 1072px;
+                                                                    padding: 8rem 3.5rem;
+                                                                }
+                                
+                                                                #worked-hard {
+                                                                    width: 990px;
+                                                                    height: 100%;
+                                                                }
+                                
+                                                                #worked-hard img {
+                                                                    max-width: 100%;
+                                                                    height: 100%;
+                                                                }
+                                
+                                                                #company-community-note {
+                                                                    width: 450px;
+                                                                    height: 452px;
+                                                                }
+                                
+                                                                #company-community-note p {
+                                                                    margin-bottom: 1rem;
+                                                                    padding-right: 1rem;
+                                                                    font-size: 3rem;
+                                                                    line-height: 1.125;
+                                                                    font-weight: 300;
+                                                                    letter-spacing: 00.03rem;
+                                                                }
+                                
+                                                                .company-community-note-link {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    width: 258px;
+                                                                    height: 23px;
+                                                                    font-size: 1.25rem;
+                                                                    line-height: 1.75rem;
+                                
+                                                                }
+                                
+                                                                .company-community-note-link div {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    margin-top: 5px;
+                                                                }
+                                
+                                                                .company-community-note-link a {
+                                                                    text-decoration: none;
+                                                                    color: #1e1e1e;
+                                                                    font-weight: 100;
+                                                                }
+                                
+                                                                #our-work {
+                                                                    width: 1407px;
+                                                                    height: 40px;
+                                                                    padding: 5rem 3.5rem;
+                                                                }
