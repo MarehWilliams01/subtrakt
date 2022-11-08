@@ -347,162 +347,265 @@
     line-height: 1.75rem;
     margin-top: 0;
     display: flex;
-        justify-content: center;
+    justify-content: center;
         letter-spacing: 0.03rem;
-        }
+}
         
-        #working-with-us {
-            width: 1407px;
-            height: 540px;
-            padding: 7rem 3.5rem;
-        }
+#working-with-us {
+    width: 1407px;
+    height: 540px;
+    padding: 7rem 3.5rem;
+}
         
-        #working-with-us h2 {
-            font-size: 2.25rem;
-            line-height: 1.25;
-            font-weight: 300;
-            letter-spacing: 0.03em;
-        }
+#working-with-us h2 {
+    font-size: 2.25rem;
+    line-height: 1.25;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+}
         
-        #working-with-us-paragraph {
-            width: 927px;
-            height: 84px;
-            font-size: 1.25rem;
-            line-height: 1.75rem;
-            font-weight: 200;
-            margin-bottom: 2rem;
-            letter-spacing: 0.03rem;
-        }
+#working-with-us-paragraph {
+    width: 927px;
+    height: 84px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    letter-spacing: 0.03rem;
+}
         
-        #working-with-us p a {
-            color: #4212d5;
-        }
+#working-with-us p a {
+    color: #4212d5;
+}
         
-        #working-with-us p a:hover {
+#working-with-us p a:hover {
+    text-decoration: none;
+}
+        
+#vacancy {
+    width: inherit;
+    height: 271px;
+}
+        
+.option {
+    width: inherit;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+        
+.option a {
+    width: inherit;
+    height: 29px;
+    padding: 2rem 1rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: #1e1e1e;
+    font-weight: 200;
+    border-top: 1px solid #1e1e1e;
+    letter-spacing: 00.03rem;
+}
+        
+.option:nth-of-type(3) a {
+    border-bottom: 1px solid #1e1e1e;
+}
+        
+.option:hover,
+.option a:hover {
+    color: #4212d5;
+    background-color: rgba(236, 236, 254, 255);
+}
+        
+#other-options {
+    display: flex;
+    margin-top: 2rem;
+        
+}
+        
+.others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 689px;
+    height: 56px;
+    margin-right: 2rem;
+}
+        
+.others div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+        
+.others p {
+    height: inherit;
+    padding: 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 200;
+}
+
+#company-community {
+    display: flex;
+    width: 1407px;
+    height: 1072px;
+    padding: 8rem 3.5rem;
+}
+                                
+#worked-hard {
+    width: 990px;
+    height: 100%;
+}
+                                
+#worked-hard img {
+    max-width: 100%;
+    height: 100%;
+}
+                                
+#company-community-note {
+    width: 450px;
+    height: 452px;
+}
+                                
+#company-community-note p {
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    font-size: 3rem;
+    line-height: 1.125;
+    font-weight: 300;
+    letter-spacing: 00.03rem;
+}
+                                
+.company-community-note-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 258px;
+    height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+                                
+}
+                                
+.company-community-note-link div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+                                
+.company-community-note-link a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 100;
+}
+                                
+#our-work {
+    width: 1407px;
+    height: 40px;
+    padding: 5rem 3.5rem;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(65, 20, 215, 255);
+        color: white;
+    }
+    
+    #our-work div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    
+    #our-work div img {
+        background-color: transparent;
+        padding-top: 6px;
+    }
+    
+    #our-work a {
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        margin-right: 1rem;
+        font-weight: 300;
+    }
+    
+    #our-work a:hover {
+        color: rgba(130, 235, 215, 255);
+    }
+    
+    #footer {
+        padding: 3.5rem;
+        width: 1407px;
+        height: 316px;
+        margin-top: 0;
+        display: flex;
+        color: white;
+        background-color: rgba(30, 30, 30, 30);
+    }
+    
+    #ready-to-start {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 100%;
+        background-color: inherit;
+        color: white;
+    }
+    
+    .footer-header h3 {
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.03rem;
+        background-color: transparent;
+    }
+    
+    .footer-header {
+        background-color: transparent;
+    
+        .footer-header a {
             text-decoration: none;
+            background-color: transparent;
+            color: white;
         }
-        
-        #vacancy {
-            width: inherit;
-            height: 271px;
+    
+        .footer-header div {
+            width: 100%;
+            height: 148px;
+            background-color: transparent;
+            display: flex;
+            align-items: flex-start;
         }
-        
-        .option {
-            width: inherit;
-            height: 90px;
+    
+        .footer-header div a {
+            padding: 1.05rem 0.85rem;
+            border: 1px solid white;
+            border-radius: 0.25rem;
+            background-color: transparent;
+            letter-spacing: 0.05rem;
+        }
+    
+        #support-desk {
+            background-color: transparent;
+            padding-top: 1.5rem;
+            display: flex;
+            height: 100px;
+        }
+    
+        .support-desk-item {
+            color: white;
+            background-color: transparent;
+        }
+    
+        .support-desk-item div {
+            background-color: transparent;
             display: flex;
             align-items: center;
         }
-        
-        .option a {
-            width: inherit;
-            height: 29px;
-            padding: 2rem 1rem;
-            text-decoration: none;
-            font-size: 1.25rem;
-            line-height: 1.25;
-            color: #1e1e1e;
-            font-weight: 200;
-            border-top: 1px solid #1e1e1e;
-            letter-spacing: 00.03rem;
-        }
-        
-        .option:nth-of-type(3) a {
-            border-bottom: 1px solid #1e1e1e;
-        }
-        
-        .option:hover,
-        .option a:hover {
-            color: #4212d5;
-            background-color: rgba(236, 236, 254, 255);
-        }
-        
-        #other-options {
-            display: flex;
-            margin-top: 2rem;
-        
-        }
-        
-        .others {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 689px;
-            height: 56px;
-            margin-right: 2rem;
-        }
-        
-        .others div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 1.5rem;
-        }
-        
-        .others p {
-            height: inherit;
-            padding: 0;
-            font-size: 1.25rem;
-            line-height: 1.75rem;
-            font-weight: 200;
-                                
-                                                                #company-community {
-                                                                    display: flex;
-                                                                    width: 1407px;
-                                                                    height: 1072px;
-                                                                    padding: 8rem 3.5rem;
-                                                                }
-                                
-                                                                #worked-hard {
-                                                                    width: 990px;
-                                                                    height: 100%;
-                                                                }
-                                
-                                                                #worked-hard img {
-                                                                    max-width: 100%;
-                                                                    height: 100%;
-                                                                }
-                                
-                                                                #company-community-note {
-                                                                    width: 450px;
-                                                                    height: 452px;
-                                                                }
-                                
-                                                                #company-community-note p {
-                                                                    margin-bottom: 1rem;
-                                                                    padding-right: 1rem;
-                                                                    font-size: 3rem;
-                                                                    line-height: 1.125;
-                                                                    font-weight: 300;
-                                                                    letter-spacing: 00.03rem;
-                                                                }
-                                
-                                                                .company-community-note-link {
-                                                                    display: flex;
-                                                                    justify-content: center;
-                                                                    align-items: center;
-                                                                    width: 258px;
-                                                                    height: 23px;
-                                                                    font-size: 1.25rem;
-                                                                    line-height: 1.75rem;
-                                
-                                                                }
-                                
-                                                                .company-community-note-link div {
-                                                                    display: flex;
-                                                                    justify-content: center;
-                                                                    align-items: center;
-                                                                    margin-top: 5px;
-                                                                }
-                                
-                                                                .company-community-note-link a {
-                                                                    text-decoration: none;
-                                                                    color: #1e1e1e;
-                                                                    font-weight: 100;
-                                                                }
-                                
-                                                                #our-work {
-                                                                    width: 1407px;
-                                                                    height: 40px;
-                                                                    padding: 5rem 3.5rem;
-                                                                }
