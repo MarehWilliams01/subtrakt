@@ -348,22 +348,22 @@
     margin-top: 0;
     display: flex;
     justify-content: center;
-        letter-spacing: 0.03rem;
+    letter-spacing: 0.03rem;
 }
-        
+
 #working-with-us {
     width: 1407px;
     height: 540px;
     padding: 7rem 3.5rem;
 }
-        
+
 #working-with-us h2 {
     font-size: 2.25rem;
     line-height: 1.25;
     font-weight: 300;
     letter-spacing: 0.03em;
 }
-        
+
 #working-with-us-paragraph {
     width: 927px;
     height: 84px;
@@ -373,27 +373,27 @@
     margin-bottom: 2rem;
     letter-spacing: 0.03rem;
 }
-        
+
 #working-with-us p a {
     color: #4212d5;
 }
-        
+
 #working-with-us p a:hover {
     text-decoration: none;
 }
-        
+
 #vacancy {
     width: inherit;
     height: 271px;
 }
-        
+
 .option {
     width: inherit;
     height: 90px;
     display: flex;
     align-items: center;
 }
-        
+
 .option a {
     width: inherit;
     height: 29px;
@@ -406,23 +406,23 @@
     border-top: 1px solid #1e1e1e;
     letter-spacing: 00.03rem;
 }
-        
+
 .option:nth-of-type(3) a {
     border-bottom: 1px solid #1e1e1e;
 }
-        
+
 .option:hover,
 .option a:hover {
     color: #4212d5;
     background-color: rgba(236, 236, 254, 255);
 }
-        
+
 #other-options {
     display: flex;
     margin-top: 2rem;
-        
+
 }
-        
+
 .others {
     display: flex;
     justify-content: center;
@@ -431,14 +431,14 @@
     height: 56px;
     margin-right: 2rem;
 }
-        
+
 .others div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1.5rem;
 }
-        
+
 .others p {
     height: inherit;
     padding: 0;
@@ -453,22 +453,22 @@
     height: 1072px;
     padding: 8rem 3.5rem;
 }
-                                
+
 #worked-hard {
     width: 990px;
     height: 100%;
 }
-                                
+
 #worked-hard img {
     max-width: 100%;
     height: 100%;
 }
-                                
+
 #company-community-note {
     width: 450px;
     height: 452px;
 }
-                                
+
 #company-community-note p {
     margin-bottom: 1rem;
     padding-right: 1rem;
@@ -477,7 +477,7 @@
     font-weight: 300;
     letter-spacing: 00.03rem;
 }
-                                
+
 .company-community-note-link {
     display: flex;
     justify-content: center;
@@ -486,126 +486,234 @@
     height: 23px;
     font-size: 1.25rem;
     line-height: 1.75rem;
-                                
+
 }
-                                
+
 .company-community-note-link div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5px;
 }
-                                
+
 .company-community-note-link a {
     text-decoration: none;
     color: #1e1e1e;
     font-weight: 100;
 }
-                                
+
 #our-work {
     width: 1407px;
     height: 40px;
     padding: 5rem 3.5rem;
     display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(65, 20, 215, 255);
-        color: white;
-    }
-    
-    #our-work div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-    }
-    
-    #our-work div img {
-        background-color: transparent;
-        padding-top: 6px;
-    }
-    
-    #our-work a {
-        text-decoration: none;
-        background-color: transparent;
-        color: white;
-        font-size: 2.25rem;
-        line-height: 2.5rem;
-        margin-right: 1rem;
-        font-weight: 300;
-    }
-    
-    #our-work a:hover {
-        color: rgba(130, 235, 215, 255);
-    }
-    
-    #footer {
-        padding: 3.5rem;
-        width: 1407px;
-        height: 316px;
-        margin-top: 0;
-        display: flex;
-        color: white;
-        background-color: rgba(30, 30, 30, 30);
-    }
-    
-    #ready-to-start {
-        display: flex;
-        flex-direction: column;
-        width: 700px;
-        height: 100%;
-        background-color: inherit;
-        color: white;
-    }
-    
-    .footer-header h3 {
-        font-size: 1.875rem;
-        line-height: 2.5rem;
-        margin-bottom: 2rem;
-        font-weight: 400;
-        letter-spacing: 0.03rem;
-        background-color: transparent;
-    }
-    
-    .footer-header {
-        background-color: transparent;
-    
-        .footer-header a {
-            text-decoration: none;
-            background-color: transparent;
-            color: white;
-        }
-    
-        .footer-header div {
-            width: 100%;
-            height: 148px;
-            background-color: transparent;
-            display: flex;
-            align-items: flex-start;
-        }
-    
-        .footer-header div a {
-            padding: 1.05rem 0.85rem;
-            border: 1px solid white;
-            border-radius: 0.25rem;
-            background-color: transparent;
-            letter-spacing: 0.05rem;
-        }
-    
-        #support-desk {
-            background-color: transparent;
-            padding-top: 1.5rem;
-            display: flex;
-            height: 100px;
-        }
-    
-        .support-desk-item {
-            color: white;
-            background-color: transparent;
-        }
-    
-        .support-desk-item div {
-            background-color: transparent;
-            display: flex;
-            align-items: center;
-        }
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 20, 215, 255);
+    color: white;
+}
+
+#our-work div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#our-work div img {
+    background-color: transparent;
+    padding-top: 6px;
+}
+
+#our-work a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-right: 1rem;
+    font-weight: 300;
+}
+
+#our-work a:hover {
+    color: rgba(130, 235, 215, 255);
+}
+
+#footer {
+    padding: 3.5rem;
+    width: 1407px;
+    height: 316px;
+    margin-top: 0;
+    display: flex;
+    color: white;
+    background-color: rgba(30, 30, 30, 30);
+}
+
+#ready-to-start {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100%;
+    background-color: inherit;
+    color: white;
+}
+
+.footer-header h3 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    background-color: transparent;
+}
+
+.footer-header {
+    background-color: transparent;
+    width: 100%;
+    height: 67%;
+}
+
+.footer-header a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.footer-header div {
+    width: 100%;
+    height: 148px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-header div a {
+    padding: 1.05rem 0.85rem;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    letter-spacing: 0.05rem;
+}
+
+#support-desk {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.support-desk-item {
+    background-color: transparent;
+    display: flex;
+    height: 80%;
+}
+
+.support-desk-item a {
+    color: white;
+    background-color: transparent;
+    display: flex;
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.support-desk-item a div {
+    background-color: transparent;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+.support-desk-item a {
+    text-decoration: none;
+    background: transparent;
+}
+
+#socials {
+    display: flex;
+    background-color: transparent;
+    width: 50%;
+}
+
+.socials1 {
+    background-color: transparent;
+    margin-right: 1rem;
+}
+
+.socials1 a {
+    background-color: transparent;
+}
+
+.socials1:nth-of-type(1) a img {
+    background-color: transparent;
+}
+
+#nav-bar-links {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    width: 345px;
+    margin-top: 3rem;
+}
+
+#nav-bar-links a {
+    background-color: transparent;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.03rem;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+#nav-bar-links a:hover {
+    text-decoration: underline;
+}
+
+#company-location {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 316px;
+    width: 346px;
+}
+
+.company-location1 {
+    width: inherit;
+    background-color: transparent;
+    color: white;
+}
+
+.company-location1 h5 {
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+    margin-top: 1.3rem;
+}
+
+.location-details {
+    background-color: transparent;
+}
+
+.location-details p {
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.company-location2 {
+    margin-top: 1rem;
+    background-color: transparent;
+}
+
+.company-location2 h5 {
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+    margin-top: 0;
+}
+
+/* http tracker - generates source code */
