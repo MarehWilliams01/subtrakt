@@ -1,0 +1,572 @@
+* {
+    background-color: rgba(255, 250, 235, 255);
+    font-family: 'Neuzit Office', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#nav-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1407px;
+    height: 62px;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3.8rem;
+    padding-right: 3.8rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    z-index: 50;
+}
+
+#header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e1e1e;
+    font-size: 2rem;
+    font-weight: bolder;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#nav-bar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 673px;
+    height: 62px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar-item {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+}
+
+.nav-bar-item a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: light;
+}
+
+.get-in-touch-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.get-in-touch-border a {
+    height: 50%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    padding: 1rem;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+}
+
+.nav-bar-item:last-child a:focus,
+.nav-bar-item:last-child a:hover {
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.nav-bar-item a:hover,
+.nav-bar-item a:focus {
+    border-bottom: 2px solid #1e1e1e;
+}
+
+#design-and-build,
+#our-clients {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #1e1e1e;
+}
+
+#design-and-build-pictures {
+    padding-bottom: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.design-and-build-image a {
+    text-decoration: none;
+    letter-spacing: 0.01rem;
+    color: #1e1e1e;
+}
+
+.design-and-build-image {
+    width: 450px;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.design-and-build-image a:hover,
+.our-products-message-block a:hover,
+.our-products-message-block-paragraph p:hover {
+    color: rgba(65, 20, 215, 255);
+}
+
+.design-and-build-icon {
+    margin-bottom: 0.5rem;
+}
+
+.design-and-build-image a h3 {
+    margin-bottom: 0.7rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.design-and-build-pictures-find-out-more {
+    display: flex;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    align-items: center;
+}
+
+.find-out-more-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.2rem;
+    margin-left: 0.6rem;
+}
+
+#our-clients {
+    background-color: white;
+    padding-top: 8rem;
+}
+
+#design-and-build p,
+#our-clients p {
+    font-size: 3rem;
+    line-height: 1.25;
+    font-weight: 300;
+    height: 300px;
+    width: 872px;
+    letter-spacing: 0.03em;
+    background-color: transparent;
+}
+
+#working-with-people {
+    background-color: #1e1e1e;
+    padding: 8rem 4rem;
+}
+
+#working-with-people p {
+    height: 90px;
+    width: 512px;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    font-size: 2.25rem;
+    line-height: 1.25;
+    color: white;
+    font-weight: 350;
+}
+
+.working-with-people-images {
+    margin-top: 1.5rem;
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+
+.working-with-images-picture {
+    display: inline-block;
+    background-color: transparent;
+    vertical-align: middle;
+    height: 140px;
+    width: 142px;
+    margin: 1.7rem;
+}
+
+.working-with-images-picture img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#our-products {
+    display: flex;
+    padding: 8rem 4rem;
+    background-color: rgba(220, 250, 245, 255);
+    justify-content: space-between;
+}
+
+.our-products-message {
+    width: 575px;
+    background-color: transparent;
+}
+
+.our-products-message p {
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.25;
+    color: #1e1e1e;
+    background-color: transparent;
+    font-weight: 200;
+    letter-spacing: 0.03rem;
+}
+
+#our-products-image {
+    width: 809px;
+    background-color: transparent;
+}
+
+#our-products-image img {
+    width: 100%;
+}
+
+.our-products-message-block {
+    background-color: transparent;
+    margin-right: 5rem;
+    padding-bottom: 1.75rem;
+}
+
+.our-products-message-block:first-of-type {
+    margin-top: 4rem;
+}
+
+.our-products-message-block a {
+    display: block;
+    color: #1e1e1e;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.our-products-message-block a h4 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    background-color: transparent;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.our-products-message-block-paragraph {
+    background-color: transparent;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.our-products-message-block-paragraph p {
+    font-size: 1.25rem;
+    font-weight: 370;
+    line-height: 1.75rem;
+    letter-spacing: 0.03rem;
+    padding-right: 3rem;
+}
+
+.our-products-message-block-paragraph div {
+    background-color: transparent;
+}
+
+.our-products-message-block-paragraph div img {
+    background-color: transparent;
+}
+
+#digital-works,
+#making-a-difference {
+    display: flex;
+    padding: 8rem 4rem;
+    align-items: center;
+}
+
+#digital-works-image img {
+    margin: 1rem;
+}
+
+#sharing-is-caring {
+    padding-left: 2rem;
+}
+
+#sharing-is-caring h3,
+#making-a-difference-equity h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    background-color: transparent;
+}
+
+#sharing-is-caring p,
+.making-a-difference-paragraph {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+    width: 576px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+}
+
+.sharing-is-caring-button a,
+#making-a-difference-find-out-more a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.75rem 1rem;
+    width: 146px;
+    background-color: rgba(65, 20, 215, 255);
+    border-radius: 5px;
+    line-height: 1.75rem;
+    font-size: 1rem;
+}
+
+.sharing-is-caring-button a div,
+#making-a-difference-find-out-more a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    background-color: transparent;
+}
+
+.sharing-is-caring-button a div img,
+#rainbow-image img {
+    background-color: transparent;
+}
+
+#making-a-difference {
+    background-color: rgba(236, 236, 254, 255);
+}
+
+#making-a-difference-equity,
+.find-out-more-making-a-difference,
+.find-out-more-making-a-difference img {
+    background-color: transparent;
+}
+
+#rainbow-image,
+#making-a-difference-find-out-more {
+    background-color: transparent;
+}
+
+#rainbow-image img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#our-work {
+    height: 40px;
+    padding: 5rem 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 20, 215, 255);
+    color: white;
+}
+
+#our-work div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#our-work div img {
+    background-color: transparent;
+    padding-top: 6px;
+}
+
+#our-work a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-right: 1rem;
+    font-weight: 300;
+}
+
+#our-work a:hover {
+    color: rgba(130, 235, 215, 255);
+}
+
+#footer {
+    padding: 3.5rem;
+    height: 316px;
+    margin-top: 0;
+    display: flex;
+    color: white;
+    background-color: rgba(30, 30, 30, 30);
+}
+
+#ready-to-start {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100%;
+    background-color: inherit;
+    color: white;
+}
+
+.footer-header h3 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    background-color: transparent;
+}
+
+.footer-header {
+    background-color: transparent;
+    width: 100%;
+    height: 67%;
+}
+
+.footer-header a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.footer-header div {
+    width: 100%;
+    height: 148px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-header div a {
+    padding: 1.05rem 0.85rem;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    letter-spacing: 0.05rem;
+}
+
+#support-desk {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.support-desk-item {
+    background-color: transparent;
+    display: flex;
+    height: 80%;
+}
+
+.support-desk-item a {
+    color: white;
+    background-color: transparent;
+    display: flex;
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.support-desk-item a div {
+    background-color: transparent;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+.support-desk-item a {
+    text-decoration: none;
+    background: transparent;
+}
+
+#socials {
+    display: flex;
+    background-color: transparent;
+    width: 50%;
+}
+
+.socials1 {
+    background-color: transparent;
+    margin-right: 1rem;
+}
+
+.socials1 a {
+    background-color: transparent;
+}
+
+.socials1:nth-of-type(1) a img {
+    background-color: transparent;
+}
+
+#nav-bar-links {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    width: 345px;
+    margin-top: 3rem;
+}
+
+#nav-bar-links a {
+    background-color: transparent;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.03rem;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+#nav-bar-links a:hover {
+    text-decoration: underline;
+}
+
+#company-location {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 316px;
+    width: 346px;
+}
+
+.company-location1 {
+    width: inherit;
+    background-color: transparent;
+    color: white;
+}
+
+.company-location1 h5 {
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+    margin-top: 1.3rem;
+}
+
+.location-details {
+    background-color: transparent;
+}
+
+.location-details p {
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.company-location2 {
+    margin-top: 1rem;
+    background-color: transparent;
+}
+
+.company-location2 h5 {
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+    margin-top: 0;
+}

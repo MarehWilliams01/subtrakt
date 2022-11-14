@@ -2,6 +2,7 @@
     background-color: #ffffff;
     font-family: 'Neuzit Office', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
+    margin: 0;
 }
 
 #nav-bar {
@@ -88,6 +89,7 @@
     margin-top: 0.75rem;
 }
 
+
 #company-summary,
 #company-goal {
     padding-top: 8rem;
@@ -153,6 +155,7 @@
 
 #the-team .team-member:nth-child(5n) .team-member-picture {
     background-color: rgba(236, 236, 254, 255);
+    
 }
 
 .team-member-name {
@@ -289,7 +292,6 @@
 }
 
 #company-benefits {
-    width: 1407px;
     height: 937px;
     padding: 7rem 3.5rem;
     background-color: rgba(255, 250, 235, 255);
@@ -503,7 +505,6 @@
 }
 
 #our-work {
-    width: 1407px;
     height: 40px;
     padding: 5rem 3.5rem;
     display: flex;
@@ -541,7 +542,6 @@
 
 #footer {
     padding: 3.5rem;
-    width: 1407px;
     height: 316px;
     margin-top: 0;
     display: flex;
@@ -714,6 +714,7 @@
     font-weight: 300;
     margin-bottom: 0.25rem;
     margin-top: 0;
+    
 }
 
 /* http tracker - generates source code */
