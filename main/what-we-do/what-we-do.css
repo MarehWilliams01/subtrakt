@@ -498,6 +498,9 @@
     background-color: transparent;
 }
 
+.socials1 a img {
+    background-color: white;
+}
 .socials1:nth-of-type(1) a img {
     background-color: transparent;
 }
